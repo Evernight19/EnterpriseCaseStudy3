@@ -12,6 +12,10 @@ export default function Home() {
     <>
       <div className={styles.pageBackground}/>
 
+      <section className={styles.Decoration1}></section>
+      <section className={styles.Decoration2}></section>
+      <section className={styles.Decoration3}></section>
+
       <div className={styles.wrapper}>
         <main className={styles.main}>
 
