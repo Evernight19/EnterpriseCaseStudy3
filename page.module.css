@@ -22,7 +22,7 @@
 .Decoration1::before {
     content: "";
     position: fixed;
-    background: rgba(200, 200, 200, 0.4);
+    background: rgba(236, 235, 235, 0.4);
 
     width: 1400px;
     top: 380px;
@@ -97,7 +97,7 @@
     width: 200vw;
     height: 200px;
 
-    background: linear-gradient(179deg, rgb(206, 98, 139), rgb(237, 212, 219), rgb(142, 56, 86), rgb(54, 7, 24), rgb(21, 3, 9),rgb(227, 185, 199), rgb(227, 185, 199));
+    background: linear-gradient(179deg, rgb(188, 105, 132), rgb(230, 206, 214), rgb(136, 70, 96), rgb(76, 24, 40), rgb(46, 16, 26), rgb(214, 186, 198), rgb(214, 186, 198));
     transform: rotate(30deg);
     z-index: -10;
     pointer-events: none;
@@ -133,7 +133,7 @@
     width: 200vw;
     height: 110px;
 
-    background: linear-gradient(rgb(16, 116, 159), rgb(92, 206, 255), rgb(139, 181, 199), rgb(27, 121, 161), rgb(0, 76, 108), rgb(5, 65, 90), rgb(0, 43, 62), rgb(0, 34, 49), rgb(0, 27, 38));
+    background: linear-gradient(rgb(38, 124, 158), rgb(120, 200, 230), rgb(150, 186, 200), rgb(60, 130, 158), rgb(30, 95, 120), rgb(22, 80, 100), rgb(16, 65, 82), rgb(12, 52, 66), rgb(8, 42, 54));
     transform: rotate(33.5deg);
     z-index: -5;
 
@@ -149,7 +149,7 @@
     width: 300vw;
     height: 200px;
 
-    background: linear-gradient(rgb(50, 6, 20), rgb(203, 94, 130), rgb(226, 191, 203), rgb(191, 125, 146), rgb(152, 72, 97), rgb(50, 6, 20), rgb(50, 6, 20), rgb(50, 6, 20), rgb(50, 6, 20));
+    background: linear-gradient(180deg, rgb(72, 24, 38) 0%, rgb(188, 102, 130) 16%, rgb(220, 192, 201) 30%, rgb(186, 132, 149) 46%, rgb(146, 84, 104) 62%, rgb(98, 48, 66) 76%, rgb(74, 32, 46) 88%, rgb(56, 22, 34) 95%, rgb(40, 14, 24) 100%);
     transform: rotate(30.5deg);
     z-index: -5;
 
@@ -176,7 +176,7 @@
     width: 200vw;
     height: 37px;
 
-    background: linear-gradient(rgb(92, 206, 255), rgb(174, 209, 224), rgb(27, 121, 161), rgb(0, 76, 108), rgb(5, 65, 90), rgb(0, 43, 62), rgb(0, 34, 49));
+    background: linear-gradient(rgb(120, 200, 230), rgb(168, 206, 218), rgb(60, 130, 158), rgb(34, 100, 124), rgb(22, 80, 100), rgb(16, 65, 82), rgb(12, 52, 66));
     transform: rotate(42deg);
     z-index: -2;
 
@@ -192,7 +192,7 @@
     width: 200vw;
     height: 200px;
 
-    background: linear-gradient(rgb(79, 29, 45), rgb(241, 124, 163), rgb(225, 189, 201), rgb(171, 121, 137), rgb(92, 20, 43), rgb(22, 2, 9), rgb(50, 6, 20), rgb(50, 6, 20), rgb(50, 6, 20));
+    background: linear-gradient(180deg, rgb(96, 42, 58) 0%, rgb(220, 132, 162) 14%, rgb(217, 188, 198) 28%, rgb(172, 126, 141) 44%, rgb(112, 48, 68) 62%, rgb(62, 22, 36) 78%, rgb(48, 18, 28) 88%, rgb(38, 14, 22) 95%, rgb(30, 10, 18) 100%);
     transform: rotate(31.5deg);
     z-index: -2;
 
@@ -208,7 +208,7 @@
     width: 200vw;
     height: 200px;
 
-    background: linear-gradient(rgb(0, 76, 108), rgb(92, 206, 255), rgb(173, 216, 233), rgb(59, 130, 160), rgb(5, 65, 90), rgb(0, 43, 62), rgb(0, 34, 49));
+    background: linear-gradient(180deg, rgb(30,95,120) 0%, rgb(120,200,230) 16%, rgb(170,210,220) 34%, rgb(70,140,165) 52%, rgb(40,100,125) 68%, rgb(22,75,95) 84%, rgb(14,60,76) 100%);
     transform: rotate(38.5deg);
     z-index: -2;
 
@@ -224,7 +224,7 @@
     width: 200vw;
     height: 100px;
 
-    background: linear-gradient(rgb(5, 65, 90), rgb(12, 98, 135), rgb(92, 206, 255), rgb(139, 181, 199), rgb(27, 121, 161), rgb(0, 76, 108), rgb(5, 65, 90), rgb(0, 43, 62), rgb(0, 34, 49));
+    background: linear-gradient(180deg, rgb(28,88,110) 0%, rgb(48,120,150) 14%, rgb(120,200,230) 28%, rgb(158,196,208) 42%, rgb(70,140,165) 58%, rgb(40,100,125) 72%, rgb(28,88,110) 84%, rgb(18,70,90) 92%, rgb(12,55,70) 100%);
     transform: rotate(38.5deg);
     z-index: -4;
 
@@ -248,7 +248,7 @@
     align-items: center;
 
     padding: 15px;
-    height: 70px;
+    height: 55px;
 
     position: fixed;
     top: 0;
@@ -361,7 +361,7 @@
     left: 0;
     width: 300px;
     height: 100%;
-    background: linear-gradient(180deg, #f2d6e5, #e7a7c6, #d874a8, #c34786, #a92a6c, #7f164e, #520a32, #2e021e);
+    background: linear-gradient(180deg, rgb(215, 162, 184) 0%, rgb(201, 130, 159) 35%, rgb(169, 93, 121) 65%, rgb(122, 58, 82) 100%);
 
     padding: 60px 15px 0 15px;
     z-index: 99999;
@@ -379,7 +379,9 @@
     pointer-events: none;
 
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
     border-right: 1px solid rgba(255,255,255,0.12);
 }
 
@@ -672,7 +674,7 @@
     height: 350px;
     padding: 20px;
 
-    background: linear-gradient(rgba(155, 90, 110, 0.78), rgba(210, 185, 195, 0.72));
+    background: linear-gradient(rgba(165, 95, 115, 0.82), rgba(205, 170, 180, 0.70));
     z-index: 2;
 }
 
