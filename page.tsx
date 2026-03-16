@@ -10,7 +10,14 @@ export default function Home() {
 
   return (
     <>
+      <title>Campus Companion</title>
+
       <div className={styles.pageBackground}/>
+
+      <section className={styles.Decoration4}></section>
+      <section className={styles.Decoration5}></section>
+      <section className={styles.Decoration6}></section>
+
 
       <section className={styles.Decoration1}></section>
       <section className={styles.Decoration2}></section>
@@ -69,33 +76,68 @@ export default function Home() {
 
         <div className={styles.PopoutShell}>
           <div className={styles.Popout2}>
-            <h2 className={styles.SearchHeader}>Placeholder</h2>
+            <h2 className={styles.SearchHeader}>Search Campus Services</h2>
             <div className={styles.searchContainer2}>
-              <input id="search2" type="text" placeholder="Search..." />
+              <input id="search2" type="text" placeholder="Find something on campus..." />
               <button type="button">Search</button>
             </div>
-            <p>Placeholder<span>Placeholder</span></p>
+            <p className={styles.SearchContainerP}>Search Events, Societies, Campus Locations, and Services.</p>
           </div>
-
-
-
-
 
           <div className={styles.Popout1}>
             <div className={styles.Popout1Content}>
-              <h2>Discover Societies at placeholder</h2>
+              <h2>Discover Societies on Campus</h2>
 
               <Link href="/societies" className={styles.Popout1Arrow}></Link>
             </div>
           </div>
-
-
 
           <div className={styles.Popout3}>
             <div className={styles.Popout3Content}>
               <h3>Quick Links</h3>
+        
+              <Link href="/timetable" className={styles.Popout3Link1}>Timetables<Image className={styles.TimetableImage1}
+                    src="/timetable-logo.png"
+                    alt="Timetable logo"
+                    width={24}
+                    height={24}/>
+              </Link>
+              
+              <Link href="/societies" className={styles.Popout3Link2}>Societies<Image className={styles.SocialImage1}
+                    src="/social-logo.png"
+                    alt="Society logo"
+                    width={20}
+                    height={20}/>
+              </Link>
+              
+              <Link href="/events" className={styles.Popout3Link3}>Events<Image className={styles.EventImage1}
+                    src="/partypopper-logo.png"
+                    alt="Part Popper"
+                    width={20}
+                    height={20}/>
+              </Link>
 
-              <Link href="/societies" className={styles.Popout1Arrow}></Link>
+              <Link href="/campus-map" className={styles.Popout3Link4}>Campus Map<Image className={styles.MapImage1}
+                    src="/map-logo.png"
+                    alt="Map Logo"
+                    width={20}
+                    height={20}/>
+              </Link>
+              
+              <Link href="/food" className={styles.Popout3Link5}>Canteen<Image className={styles.FoodImage1}
+                    src="/canteen-logo.png"
+                    alt="Burger Logo"
+                    width={20}
+                    height={20}/>
+              </Link>
+
+              <Link href="/helpdesk" className={styles.Popout3Link6}>Help Desk<Image className={styles.HelpImage1}
+                    src="/help-logo.png"
+                    alt="Tools logo"
+                    width={20}
+                    height={20}/>  
+              </Link>
+            
             </div>
           </div>
         
@@ -104,6 +146,6 @@ export default function Home() {
       </main>
     </div>
   </>
-  )}
+)}
 
   
