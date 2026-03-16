@@ -69,107 +69,47 @@ export default function LoginPage() {
       <div className={styles.wrapper}>
         <main className={styles.main}>
           <nav className={styles.navbar}>
-            <button
-              type="button"
-              className={styles.menuToggle}
-              onClick={() => setMenuOpen(true)}
-              aria-label="Open menu"
-            >
-              ☰
-            </button>
+            <button type="button" className={styles.menuToggle} onClick={() => setMenuOpen(true)} aria-label="Open menu">☰</button>
 
             <div className={styles.navbarButton}>
-              <Link href="/" className={styles.navHomeBtn}>
-                Home
-              </Link>
-              <Link href="/contact" className={styles.navEventsBtn}>
-                Contact Us
-              </Link>
-              <Link href="/login" className={styles.navSignInBtn}>
-                Sign In
-                <Image
-                  className={styles.signInImage}
+              <Link href="/" className={styles.navHomeBtn}>Home</Link>
+              <Link href="/contact" className={styles.navEventsBtn}>Contact Us</Link>
+
+              <Link href="/login" className={styles.navSignInBtn}>Sign In<Image className={styles.signInImage}
                   src="/logo.png"
                   alt="Sign in logo"
                   width={24}
-                  height={24}
-                />
+                  height={24}/>
               </Link>
             </div>
           </nav>
 
           <div className={`${styles.sideMenu} ${menuOpen ? styles.open : ""}`}>
-            <button
-              className={styles.closeBtn}
-              onClick={() => setMenuOpen(false)}
-              aria-label="Close menu"
-              type="button"
-            >
-              ✖
-            </button>
+            <button className={styles.closeBtn} onClick={() => setMenuOpen(false)} aria-label="Close menu" type="button">✖</button>
 
-            <Link
-              href="/"
-              className={`${styles.sideMenuLink} ${styles.homeButton}`}
-              onClick={() => setMenuOpen(false)}
-            >
-              Home
-            </Link>
+            <Link href="/" className={`${styles.sideMenuLink} ${styles.homeButton}`} onClick={() => setMenuOpen(false)}>Home</Link>
 
-            <Link
-              href="/timetable"
-              className={styles.sideMenuLink}
-              onClick={() => setMenuOpen(false)}
-            >
-              Timetables
-            </Link>
+            <Link href="/timetable" className={styles.sideMenuLink} onClick={() => setMenuOpen(false)}>Timetables</Link>
 
-            <Link
-              href="/contact"
-              className={styles.sideMenuLink}
-              onClick={() => setMenuOpen(false)}
-            >
-              Contact Us
-            </Link>
+            <Link href="/contact" className={styles.sideMenuLink} onClick={() => setMenuOpen(false)}>Contact Us</Link>
 
-            <Link
-              href="/login"
-              className={styles.sideMenuLink}
-              onClick={() => setMenuOpen(false)}
-            >
-              Sign In
-              <Image
-                className={styles.signInImage2}
+            <Link href="/login" className={styles.sideMenuLink} onClick={() => setMenuOpen(false)}>Sign In<Image className={styles.signInImage2}
                 src="/logo.png"
                 alt="Sign in logo"
                 width={24}
-                height={24}
-              />
+                height={24}/>
             </Link>
 
-            <Link
-              href="/settings"
-              className={styles.sideMenuLinkSettings}
-              onClick={() => setMenuOpen(false)}
-            >
-              Settings
-              <Image
-                className={styles.settingsImage}
+            <Link href="/settings" className={styles.sideMenuLinkSettings} onClick={() => setMenuOpen(false)}>Settings<Image className={styles.settingsImage}
                 src="/settings-logo.png"
                 alt="Settings logo"
                 width={30}
-                height={30}
-              />
+                height={30}/>
             </Link>
           </div>
 
-          {menuOpen && (
-            <div
-              className={styles.pageOverlay}
-              onClick={() => setMenuOpen(false)}
-              aria-hidden="true"
-            />
-          )}
+          {menuOpen && (<div className={styles.pageOverlay} onClick={() => setMenuOpen(false)} aria-hidden="true"/>)}
+
 
           <section className={styles.section}></section>
           <section className={`${styles.section} ${styles.section2}`}></section>
@@ -184,42 +124,28 @@ export default function LoginPage() {
               <form className={styles.loginForm} onSubmit={handleLogin}>
                 <div className={styles.formGroup}>
                   <label htmlFor="studentId">Student ID</label>
-                  <input
-                    id="studentId"
-                    type="text"
-                    placeholder="Enter your student ID"
-                    value={studentId}
-                    onChange={(e) => setStudentId(e.target.value)}
-                  />
+                  <input id="studentId" type="text" placeholder="Enter your student ID" value={studentId} onChange={(e) => setStudentId(e.target.value)}/>
                 </div>
 
                 <div className={styles.formGroup}>
                   <label htmlFor="password">Password</label>
-                  <input
-                    id="password"
-                    type="password"
-                    placeholder="Enter your password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                  />
+                  <input id="password" type="password" placeholder="Enter your password" value={password} onChange={(e) => setPassword(e.target.value)}/>
                 </div>
 
                 {error && <p className={styles.errorMessage}>{error}</p>}
                 {success && <p className={styles.successMessage}>{success}</p>}
 
-                <button type="submit" className={styles.loginButton}>
-                  Sign In
-                </button>
+                <button type="submit" className={styles.loginButton}>Sign In</button>
               </form>
 
               <div className={styles.loginFooter}>
-                <p>
-                  Demo login: <strong>A00028743</strong>
-                </p>
+                <p>Demo login: <strong>A00028743</strong></p>
+
                 <p>Password: <strong>campus123</strong></p>
                 <Link href="/" className={styles.backLink}>Back to Home</Link>
               </div>
             </div>
+            
           </section>
         </main>
       </div>
