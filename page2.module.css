@@ -2,6 +2,7 @@
     position: fixed;
     inset: 0;
     background: rgb(236, 248, 252);
+    
     z-index: -10;
     pointer-events: none;
 }
@@ -17,6 +18,7 @@
     content: "";
     position: fixed;
     background: transparent;
+
     pointer-events: none;
     z-index: -1;
     filter: blur(2px);
@@ -37,6 +39,7 @@
     height: 1000px;
     top: 470px;
     right: 111px;
+
     border-radius: 28px;
     border: 1px solid rgba(120, 200, 230, 0.7);
     transform: rotate(100deg);
@@ -47,6 +50,7 @@
     height: 700px;
     top: 630px;
     right: 520px;
+
     border-radius: 28px;
     border: 1px solid rgba(120, 200, 230, 0.7);
     transform: rotate(150deg);
@@ -57,6 +61,7 @@
     height: 400px;
     top: -10px;
     left: -28px;
+
     border-radius: 20px;
     transform: rotate(14.5deg);
     border: 1px solid rgba(188, 105, 132, 0.7);
@@ -67,6 +72,7 @@
     height: 400px;
     top: -10px;
     left: -30px;
+
     border-radius: 18px;
     transform: rotate(160deg);
     border: 1px solid rgba(188, 105, 132, 0.7);
@@ -77,6 +83,7 @@
     height: 200px;
     top: -30px;
     left: -50px;
+
     border-radius: 5px;
     transform: rotate(120deg);
     border: 1px solid rgba(188, 105, 132, 0.7);
@@ -88,6 +95,7 @@
     top: -27px;
     right: -50px;
     border-radius: 8px;
+
     filter: blur(1px);
     transform: rotate(125deg);
     border: 1px solid rgba(188, 105, 132, 0.7);
@@ -98,6 +106,7 @@
     height: 340px;
     top: -20px;
     right: -40px;
+
     border-radius: 10px;
     transform: rotate(153deg);
     border: 1px solid rgba(188, 105, 132, 0.7);
@@ -107,6 +116,7 @@
     margin: 0;
     min-height: 100vh;
     font-family: Arial, sans-serif;
+
     background: transparent;
     position: relative;
     overflow-x: hidden;
@@ -136,16 +146,8 @@
     left: -70vw;
     width: 200vw;
     height: 200px;
-    background: linear-gradient(
-        179deg,
-        rgb(188, 105, 132),
-        rgb(230, 206, 214),
-        rgb(136, 70, 96),
-        rgb(76, 24, 40),
-        rgb(46, 16, 26),
-        rgb(214, 186, 198),
-        rgb(214, 186, 198)
-    );
+
+    background: linear-gradient(179deg, rgb(188, 105, 132), rgb(230, 206, 214), rgb(136, 70, 96), rgb(76, 24, 40), rgb(46, 16, 26), rgb(214, 186, 198), rgb(214, 186, 198));
     transform: rotate(30deg);
     z-index: -10;
 }
@@ -155,15 +157,8 @@
     left: -70vw;
     width: 200vw;
     height: 300px;
-    background: linear-gradient(
-        rgb(169, 57, 94),
-        rgb(232, 205, 214),
-        rgb(173, 96, 119),
-        rgb(158, 55, 89),
-        rgb(61, 25, 37),
-        rgb(18, 2, 8),
-        rgb(0, 0, 0)
-    );
+
+    background: linear-gradient(rgb(169, 57, 94), rgb(232, 205, 214), rgb(173, 96, 119), rgb(158, 55, 89), rgb(61, 25, 37), rgb(18, 2, 8), rgb(0, 0, 0));
     transform: rotate(28deg);
     z-index: -6;
 }
@@ -173,17 +168,8 @@
     left: -70vw;
     width: 200vw;
     height: 110px;
-    background: linear-gradient(
-        rgb(38, 124, 158),
-        rgb(120, 200, 230),
-        rgb(150, 186, 200),
-        rgb(60, 130, 158),
-        rgb(30, 95, 120),
-        rgb(22, 80, 100),
-        rgb(16, 65, 82),
-        rgb(12, 52, 66),
-        rgb(8, 42, 54)
-    );
+
+    background: linear-gradient(rgb(38, 124, 158), rgb(120, 200, 230), rgb(150, 186, 200), rgb(60, 130, 158), rgb(30, 95, 120), rgb(22, 80, 100), rgb(16, 65, 82), rgb(12, 52, 66), rgb(8, 42, 54));
     transform: rotate(33.5deg);
     z-index: -5;
 }
@@ -193,18 +179,8 @@
     left: -120vw;
     width: 300vw;
     height: 200px;
-    background: linear-gradient(
-        180deg,
-        rgb(72, 24, 38) 0%,
-        rgb(188, 102, 130) 16%,
-        rgb(220, 192, 201) 30%,
-        rgb(186, 132, 149) 46%,
-        rgb(146, 84, 104) 62%,
-        rgb(98, 48, 66) 76%,
-        rgb(74, 32, 46) 88%,
-        rgb(56, 22, 34) 95%,
-        rgb(40, 14, 24) 100%
-    );
+
+    background: linear-gradient(180deg, rgb(72, 24, 38) 0%, rgb(188, 102, 130) 16%, rgb(220, 192, 201) 30%, rgb(186, 132, 149) 46%, rgb(146, 84, 104) 62%, rgb(98, 48, 66) 76%, rgb(74, 32, 46) 88%, rgb(56, 22, 34) 95%, rgb(40, 14, 24) 100%);
     transform: rotate(30.5deg);
     z-index: -5;
 }
@@ -220,15 +196,8 @@
     left: -90vw;
     width: 200vw;
     height: 37px;
-    background: linear-gradient(
-        rgb(120, 200, 230),
-        rgb(168, 206, 218),
-        rgb(60, 130, 158),
-        rgb(34, 100, 124),
-        rgb(22, 80, 100),
-        rgb(16, 65, 82),
-        rgb(12, 52, 66)
-    );
+
+    background: linear-gradient(rgb(120, 200, 230), rgb(168, 206, 218), rgb(60, 130, 158), rgb(34, 100, 124), rgb(22, 80, 100), rgb(16, 65, 82), rgb(12, 52, 66));
     transform: rotate(42deg);
     z-index: -2;
 }
@@ -238,18 +207,8 @@
     left: -100vw;
     width: 200vw;
     height: 200px;
-    background: linear-gradient(
-        180deg,
-        rgb(96, 42, 58) 0%,
-        rgb(220, 132, 162) 14%,
-        rgb(217, 188, 198) 28%,
-        rgb(172, 126, 141) 44%,
-        rgb(112, 48, 68) 62%,
-        rgb(62, 22, 36) 78%,
-        rgb(48, 18, 28) 88%,
-        rgb(38, 14, 22) 95%,
-        rgb(30, 10, 18) 100%
-    );
+
+    background: linear-gradient(180deg, rgb(96, 42, 58) 0%, rgb(220, 132, 162) 14%, rgb(217, 188, 198) 28%, rgb(172, 126, 141) 44%, rgb(112, 48, 68) 62%, rgb(62, 22, 36) 78%, rgb(48, 18, 28) 88%, rgb(38, 14, 22) 95%, rgb(30, 10, 18) 100%);
     transform: rotate(31.5deg);
     z-index: -2;
 }
@@ -259,16 +218,8 @@
     left: -112vw;
     width: 200vw;
     height: 200px;
-    background: linear-gradient(
-        180deg,
-        rgb(30, 95, 120) 0%,
-        rgb(120, 200, 230) 16%,
-        rgb(170, 210, 220) 34%,
-        rgb(70, 140, 165) 52%,
-        rgb(40, 100, 125) 68%,
-        rgb(22, 75, 95) 84%,
-        rgb(14, 60, 76) 100%
-    );
+
+    background: linear-gradient(180deg, rgb(30, 95, 120) 0%, rgb(120, 200, 230) 16%, rgb(170, 210, 220) 34%, rgb(70, 140, 165) 52%, rgb(40, 100, 125) 68%, rgb(22, 75, 95) 84%, rgb(14, 60, 76) 100%);
     transform: rotate(38.5deg);
     z-index: -2;
 }
@@ -278,18 +229,8 @@
     left: -90vw;
     width: 200vw;
     height: 100px;
-    background: linear-gradient(
-        180deg,
-        rgb(28, 88, 110) 0%,
-        rgb(48, 120, 150) 14%,
-        rgb(120, 200, 230) 28%,
-        rgb(158, 196, 208) 42%,
-        rgb(70, 140, 165) 58%,
-        rgb(40, 100, 125) 72%,
-        rgb(28, 88, 110) 84%,
-        rgb(18, 70, 90) 92%,
-        rgb(12, 55, 70) 100%
-    );
+
+    background: linear-gradient(180deg, rgb(28, 88, 110) 0%, rgb(48, 120, 150) 14%, rgb(120, 200, 230) 28%, rgb(158, 196, 208) 42%, rgb(70, 140, 165) 58%, rgb(40, 100, 125) 72%, rgb(28, 88, 110) 84%, rgb(18, 70, 90) 92%, rgb(12, 55, 70) 100%);
     transform: rotate(38.5deg);
     z-index: -4;
 }
@@ -298,25 +239,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 15px;
     height: 55px;
+
     position: fixed;
     top: 0;
     left: 0;
+    
     width: 100%;
     z-index: 100;
-    background: linear-gradient(
-        90deg,
-        rgba(65, 12, 30, 0.85),
-        rgba(120, 38, 65, 0.85),
-        rgba(160, 60, 95, 0.85),
-        rgba(195, 95, 130, 0.85),
-        rgba(210, 120, 150, 0.85),
-        rgba(195, 95, 130, 0.85),
-        rgba(160, 60, 95, 0.85),
-        rgba(120, 38, 65, 0.85),
-        rgba(65, 12, 30, 0.85)
-    );
+    background: linear-gradient(90deg, rgba(65, 12, 30, 0.85), rgba(120, 38, 65, 0.85), rgba(160, 60, 95, 0.85), rgba(195, 95, 130, 0.85), rgba(210, 120, 150, 0.85), rgba(195, 95, 130, 0.85), rgba(160, 60, 95, 0.85), rgba(120, 38, 65, 0.85), rgba(65, 12, 30, 0.85));
+
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -336,12 +270,15 @@
     align-items: center;
     gap: 2px;
     padding: 10px 12px;
+
     background: transparent;
     border: none;
     border-radius: 6px;
+
     color: white;
     font-size: 18px;
     font-weight: bold;
+
     cursor: pointer;
     text-decoration: none;
     transition: transform 0.2s, opacity 0.2s;
@@ -377,11 +314,14 @@
     display: block;
     font-size: 32px;
     font-weight: bold;
+
     color: white;
     cursor: pointer;
+
     padding: 10px;
     user-select: none;
     opacity: 0.8;
+
     transition: transform 0.2s ease, opacity 0.2s ease;
     background: transparent;
     border: none;
@@ -401,26 +341,26 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+
     position: fixed;
     top: 0;
+
     left: 0;
     width: 300px;
     height: 100%;
+
     padding: 60px 15px 0;
     z-index: 99999;
-    background: linear-gradient(
-        180deg,
-        rgb(215, 162, 184) 0%,
-        rgb(201, 130, 159) 35%,
-        rgb(169, 93, 121) 65%,
-        rgb(122, 58, 82) 100%
-    );
+    background: linear-gradient(180deg, rgb(215, 162, 184) 0%, rgb(201, 130, 159) 35%, rgb(169, 93, 121) 65%, rgb(122, 58, 82) 100%);
+
     transform: translateX(-100%);
     opacity: 0;
     visibility: hidden;
+
     pointer-events: none;
     transition: transform 0.35s ease, opacity 0.35s ease, visibility 0s linear 0.35s;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-right: 1px solid rgba(255, 255, 255, 0.12);
@@ -438,9 +378,11 @@
     position: absolute;
     top: 15px;
     right: 15px;
+
     background: none;
     border: none;
     color: #f5e6ef;
+
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
@@ -461,14 +403,18 @@
     display: flex;
     width: 100%;
     align-items: center;
+
     padding: 10px 12px;
     background: transparent;
+
     border: none;
     border-radius: 6px;
     color: #f5e6ef;
+
     font-size: 22px;
     font-weight: bold;
     cursor: pointer;
+    
     text-align: left;
     text-decoration: none;
     transition: padding-left 0.2s, opacity 0.2s, background 0.2s;
@@ -489,9 +435,11 @@
     position: fixed;
     inset: 0;
     background: rgba(20, 10, 20, 0.18);
+
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     z-index: 9998;
+
     opacity: 1;
     animation: overlayFade 0.5s ease;
     pointer-events: auto;
@@ -525,6 +473,7 @@
     position: relative;
     display: flex;
     align-items: center;
+
     justify-content: center;
     padding: 110px 20px 40px;
     z-index: 2;
@@ -534,13 +483,12 @@
     width: 100%;
     max-width: 560px;
     padding: 32px;
+
     color: white;
     overflow: hidden;
     border-radius: 10px;
-    background: linear-gradient(
-        rgba(165, 95, 115, 0.82),
-        rgba(205, 170, 180, 0.70)
-    );
+
+    background: linear-gradient(rgba(165, 95, 115, 0.82), rgba(205, 170, 180, 0.70));
     clip-path: polygon(
         0 0,
         100% 0,
@@ -586,9 +534,11 @@
     width: 100%;
     height: 60px;
     padding: 12px 14px;
+
     background: rgba(255, 255, 255, 0.9);
     border: 1px solid rgb(169, 169, 169);
     border-radius: 2px;
+
     color: black;
     font-size: 18px;
 }
@@ -605,17 +555,15 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+
     border: 1px solid rgba(255, 255, 255, 0.16);
     outline: none;
-    background: linear-gradient(
-        90deg,
-        rgba(112, 48, 70, 0.98) 0%,
-        rgba(160, 80, 108, 0.98) 50%,
-        rgba(200, 110, 140, 0.98) 100%
-    );
+    background: linear-gradient(90deg, rgba(112, 48, 70, 0.98) 0%, rgba(160, 80, 108, 0.98) 50%, rgba(200, 110, 140, 0.98) 100%);
+
     color: rgba(255, 255, 255, 0.98);
     font-size: 20px;
     font-weight: 700;
+
     letter-spacing: 0.2px;
     line-height: 1;
     clip-path: polygon(
@@ -638,16 +586,12 @@
 }
 
 .loginButton:hover {
-    background: linear-gradient(
-        90deg,
-        rgba(132, 64, 90, 0.98) 0%,
-        rgba(164, 82, 114, 0.98) 45%,
-        rgba(197, 110, 141, 0.98) 100%
-    );
+    background: linear-gradient(90deg, rgba(132, 64, 90, 0.98) 0%, rgba(164, 82, 114, 0.98) 45%, rgba(197, 110, 141, 0.98) 100%);
     box-shadow:
         inset 0 1px 0 rgba(255, 255, 255, 0.22),
         inset 0 -1px 0 rgba(70, 20, 40, 0.16),
         0 10px 24px rgba(70, 20, 40, 0.28);
+
     transform: translateY(-1px);
     filter: saturate(1.03);
 }
@@ -692,4 +636,3 @@
 .backLink:hover {
     opacity: 0.8;
 }
-
